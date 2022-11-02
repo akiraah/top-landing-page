@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 /* HERO -> header, navbar and main intro */
@@ -52,7 +53,7 @@ header {
 }
 
 .sign-up {
-  background-color: #3882F6; 
+  background-color: #3882f6;
   font-size: 11px;
   height: 28px;
   color: #f9faf8;
@@ -90,4 +91,53 @@ a {
 a {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+/* card container */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.information-header {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 125px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.box {
+  border: #3882f6 3px solid;
+  border-radius: 10px;
+  height: 125px;
+  width: inherit;
+}
+
+.text {
+  padding: 5px;
+}
+
+.quote {
+  background-color: azure;
 }
