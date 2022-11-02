@@ -103,6 +103,7 @@ a {
 .card-container {
   display: flex;
   flex-direction: column;
+  margin: 50px;
 }
 
 .information-header {
@@ -110,7 +111,7 @@ a {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  padding: 30px;
+  margin-bottom: 50px;
 }
 
 .cards {
@@ -139,5 +140,41 @@ a {
 }
 
 .quote {
-  background-color: azure;
+  background-color: #E5E7EB;
+  flex: 1;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.cta {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  padding: 15px;
+  color: #f9faf8;
+}
+
+.cta-container h3,
+.cta-container p {
+  display: inline;
+}
+
+.footer {
+  text-align: center;
 }
